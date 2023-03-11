@@ -1,0 +1,48 @@
+/*
+Because we never talked about color schemes I went with blue and darkblue
+for the title and header space. I chose brown and green for the questions and responses.
+*/
+.page-header {
+    background-color: #053ef8;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 40px;
+}
+/*
+The CSS for h1 and h2 are setup to match the scheme of the page header.
+White on blue for h1 and blue on white for h2.
+*/
+h1 a {
+    color: #ffffff;
+    font-size: 36pt;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 a {
+    color:#051082;
+    font-size: 30pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h5 a {
+    color: #051082;
+    font-size: 20pt;
+}
+
+/*
+Heading 6 and paragraph are the same except for color since they fill similar roles
+but need to be easily differentiable.
+*/
+
+h6 a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    color: #803b02;
+
+}
+
+p a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    color: #069b1a;
+}
