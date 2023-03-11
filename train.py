@@ -5,8 +5,8 @@ trainer = ListTrainer(bot)
 
 trainer.train(
     [
-   "I forgot my password",
-   "Sorry about that"
+   "I need help",
+   "How can I help?"
     ]
 )
 
@@ -14,15 +14,14 @@ trainer.train([
     "I can't login",
     "What is the exact problem",
     "It says it has an error",
-    "What the error say?",
-    "I don't get it",
-    "Read it to me",
     "'Username or Password is incorrect' it what is says",
     "Did you make sure the username and password were correct",
-    "yes",
+    "yes I made sure they were correct",
     "Have you tried reseting your password?",
     "That's why i'm here",
-    "Ok, no issue. I sent you an email verfication"
+    "Ok, no issue. I sent you an email verfication",
+    "Thanks, that worked",
+    "No problem. I'm glad that worked for you"
 ])
 
 while True:
