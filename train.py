@@ -5,8 +5,8 @@ trainer = ListTrainer(bot)
 
 trainer.train(
     [
-    "Hey",
-    "Surely your problem won't be stupid?"
+   "I forgot my password",
+   "Sorry about that"
     ]
 )
 
