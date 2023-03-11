@@ -5,26 +5,24 @@ trainer = ListTrainer(bot)
 
 trainer.train(
     [
-    "Hello",
-    "Please hold"
+    "Hey",
+    "Surely your problem won't be stupid?"
     ]
 )
 
 trainer.train([
-    "Hi there!",
-    "Hello",
-    "What kind of phone plans do you offer?",
-    "We have our 'basic' plan,'Plus' plan, 'Old People' plan, and 'Deluxe' plan. ",
-    "Tell me about old people",
-    "The 'Old People' plan has unlimited calls with throttled data and a free rotary phone app.",
-    "How much does it cost?"
-    "How many phones are you wanting to add to this plan?",
-    "five",
-    "This plan costs $77/month for five phones.",
-    "That sounds expensive"
-    "Well, we offer a $5/month discount for new and joining members",
-    "Ok I want this plan",
-    "Alright, I'll send you to billing"
+    "I can't login",
+    "What is the exact problem",
+    "It says it has an error",
+    "What the error say?",
+    "I don't get it",
+    "Read it to me",
+    "'Username or Password is incorrect' it what is says",
+    "Did you make sure the username and password were correct",
+    "yes",
+    "Have you tried reseting your password?",
+    "That's why i'm here",
+    "Ok, no issue. I sent you an email verfication"
 ])
 
 while True:
