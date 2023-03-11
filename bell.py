@@ -8,7 +8,8 @@ bot = ChatBot(
     logic_adaptors=[ 
         'chatterbot.logic.SpecificResponseAdapter',#repsonses to specifc questiosn with specfic answers
         'chatterbot.logic.MathematicalEvaluation',#responses to math questions
-        'chatterbot.logic.BestMatch'#matches the input with the best output
+        'chatterbot.logic.BestMatch'#matches the input with the best output,
+        
     ],
     database_url='sqlite:///database.sqlite3'#location of database
 )
